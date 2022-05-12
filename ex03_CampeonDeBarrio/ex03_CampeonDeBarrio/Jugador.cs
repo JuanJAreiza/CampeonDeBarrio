@@ -73,7 +73,7 @@ namespace ex03_CampeonDeBarrio
         /// <summary>
         /// Calcula el promedio de puntos por campaña para el jugador
         /// </summary>
-        public void CalculaPromedio()
+        private void CalculaPromedio()
         {
             //Si hay cantidad de campañas, se calcula el promedio
             if (campañas != 0)
