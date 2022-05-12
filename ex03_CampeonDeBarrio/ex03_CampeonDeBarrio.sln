@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex03_CampeonDeBarrio", "ex03_CampeonDeBarrio\ex03_CampeonDeBarrio.csproj", "{B07227A6-4C55-4CCD-A12B-67BB04B937C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex03_CampeonDeBarrioTests", "ex03_CampeonDeBarrioTests\ex03_CampeonDeBarrioTests.csproj", "{53A3DD04-1FD6-46F1-8113-A3EFA770A8C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B07227A6-4C55-4CCD-A12B-67BB04B937C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B07227A6-4C55-4CCD-A12B-67BB04B937C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07227A6-4C55-4CCD-A12B-67BB04B937C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A3DD04-1FD6-46F1-8113-A3EFA770A8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A3DD04-1FD6-46F1-8113-A3EFA770A8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A3DD04-1FD6-46F1-8113-A3EFA770A8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A3DD04-1FD6-46F1-8113-A3EFA770A8C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
