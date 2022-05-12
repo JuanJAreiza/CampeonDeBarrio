@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ex03_CampeonDeBarrio
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -77,14 +77,28 @@ namespace ex03_CampeonDeBarrio
                 Console.WriteLine(unJugador.InfoJugador());
 
             //Finalmente, identificamos quien es el campeón invocando la función
-            IdentificaCampeon(losJugadores);
+            Jugador[] losCampeones = IdentificaCampeon(losJugadores);
+
+            if (losCampeones.Length == 1)
+            {
+                Console.WriteLine($"\n\nEl Campeón del Barrio es {losCampeones[0].Nombre}\n" +
+               $" que obtuvo promedio de {losCampeones[0].Promedio.ToString("0.00")} puntos por campaña.");
+            }
+            else
+            {
+                Console.WriteLine($"\n\nSe presentó empate con un puntaje de {losCampeones[0].Promedio.ToString("0.00")} entre: ");
+
+                foreach (Jugador unJugador in losCampeones)
+                    Console.WriteLine($"- {unJugador.Nombre} con {unJugador.Campañas} campaña(s) jugadas");
+            }
+
         }
 
         /// <summary>
         /// Identifica quien es el campeón entre los jugadores a partir del criterio definido
         /// </summary>
         /// <param name="losJugadores">Arreglo de los jugadores</param>
-        static void IdentificaCampeon(Jugador[] arregloJugadores)
+        public static Jugador[] IdentificaCampeon(Jugador[] arregloJugadores)
         {
             //Arbitrariamente seleccionamos el campeón como el primer jugador del arreglo
             Jugador jugadorCampeon = arregloJugadores[0];
@@ -103,18 +117,23 @@ namespace ex03_CampeonDeBarrio
                 if (unJugador.Promedio == jugadorCampeon.Promedio)
                     cantidadCampeones++;
 
-            //Aqui visualizamos resultados
+            Jugador[] losCampeones = new Jugador[cantidadCampeones];
+
             if (cantidadCampeones == 1)
-                Console.WriteLine($"\n\nEl Campeón del Barrio es {jugadorCampeon.Nombre}\n" +
-                $" que obtuvo promedio de {jugadorCampeon.Promedio.ToString("0.00")} puntos por campaña.");
+                losCampeones[0] = jugadorCampeon;
+
             else
             {
-                Console.WriteLine($"\n\nSe presentó empate con un puntaje de {jugadorCampeon.Promedio.ToString("0.00")} entre: ");
-
+                int contadorCampeones = 0;
                 foreach (Jugador unJugador in arregloJugadores)
                     if (unJugador.Promedio == jugadorCampeon.Promedio)
-                        Console.WriteLine($"- {unJugador.Nombre} con {unJugador.Campañas} campaña(s) jugadas");
+                    {
+                        losCampeones[contadorCampeones] = unJugador;
+                        contadorCampeones++;
+                    }
             }
+
+            return losCampeones;
         }
     }
 }

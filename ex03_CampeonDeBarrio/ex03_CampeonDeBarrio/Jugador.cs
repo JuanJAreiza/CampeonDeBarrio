@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ex03_CampeonDeBarrio
 {
-    internal class Jugador
+    public class Jugador
     {
         //Atributos
 
