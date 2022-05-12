@@ -1,0 +1,8 @@
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\bin\Debug\ex03_CampeonDeBarrio.exe.config
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\bin\Debug\ex03_CampeonDeBarrio.exe
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\bin\Debug\ex03_CampeonDeBarrio.pdb
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\obj\Debug\ex03_CampeonDeBarrio.csproj.AssemblyReference.cache
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\obj\Debug\ex03_CampeonDeBarrio.csproj.SuggestedBindingRedirects.cache
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\obj\Debug\ex03_CampeonDeBarrio.csproj.CoreCompileInputs.cache
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\obj\Debug\ex03_CampeonDeBarrio.exe
+D:\Users\USER\Desktop\Programación\Prueba2CampeonBarrio\ex03_CampeonDeBarrio\ex03_CampeonDeBarrio\obj\Debug\ex03_CampeonDeBarrio.pdb
